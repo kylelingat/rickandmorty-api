@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#characters {
+  width: 100%;
+}
+
+#charContainer {
+  display: grid;
+  margin: auto;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 75%;
+}
+
+.charCard {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+}
+
+.heroTitle {
+  text-align: center;
+}
+
+.heroBackgroundImage {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+}
